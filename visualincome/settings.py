@@ -25,10 +25,13 @@ SECRET_KEY = 'django-insecure-v92)&y*ep2+panud7$_vl7k%l&s$8*11m&2$fqfa7*ar#6*$s7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 # django-cors-headers config
-CORS_ALLOWED_ORIGINS = []
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:8080",
+]
+
 
 # Application definition
 
