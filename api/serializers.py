@@ -3,4 +3,6 @@ from .models import Income
 
 
 class IncomeSerializer(serializers.ModelSerializer):
-    pass
+    class Meta:
+        model = Income
+        fields = "__all__"
